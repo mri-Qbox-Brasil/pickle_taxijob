@@ -2,7 +2,7 @@ Config = {}
 
 Config.Debug = true
 
-Config.Language = "en"
+Config.Language = "pt"
 
 Config.Businesses = {
     {
@@ -61,7 +61,6 @@ Config.Missions = {
     },
     locations = {
         vector4(946.3250, -171.7351, 74.5242, 56.1620),
-        vector4(963.3705, -149.6545, 73.9146, 239.3231), -- REMOVE THIS
         vector4(397.9923, -870.3594, 29.2102, 322.1986),
         vector4(59.2745, -1483.8176, 29.2773, 270.6085),
         vector4(1246.3237, -1453.9513, 34.9354, 344.2509),

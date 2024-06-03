@@ -11,9 +11,10 @@ function ShowNotification(text)
 end
 
 function ShowHelpNotification(text)
-    AddTextEntry('qbHelpNotification', text)
-    BeginTextCommandDisplayHelp('qbHelpNotification')
-    EndTextCommandDisplayHelp(0, false, false, -1)
+    -- AddTextEntry('qbHelpNotification', text)
+    -- BeginTextCommandDisplayHelp('qbHelpNotification')
+    -- EndTextCommandDisplayHelp(0, false, false, -1)
+    lib.showTextUI(text)
 end
 
 function GetPlayersInArea(coords, maxDistance)
